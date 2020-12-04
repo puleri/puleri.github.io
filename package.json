@@ -1,6 +1,6 @@
 {
-    "title": "Freelancer",
-    "name": "startbootstrap-freelancer",
+    "title": "Matthew Puleri Portfolio",
+    "name": "Matthew-Puleri-Portfolio",
     "version": "6.0.5",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "description": "A Portfolio with work of Matthew Puleri, a full-stack software engineer",
     "keywords": [
         "css",
         "sass",
@@ -23,10 +23,10 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/freelancer",
+    "homepage": "https://puleri.github.io/",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-freelancer/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/puleri/puleri.github.io/issues",
+        "email": "puleri.mp4@gmail.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
@@ -35,7 +35,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-freelancer.git"
+        "url": "https://github.com/puleri/puleri.github.io"
     },
     "dependencies": {
         "bootstrap": "4.5.3"
