@@ -38,7 +38,8 @@
         "url": "https://github.com/puleri/puleri.github.io"
     },
     "dependencies": {
-        "bootstrap": "4.5.3"
+        "bootstrap": "4.5.3",
+        "gh-pages": "^3.1.0"
     },
     "devDependencies": {
         "autoprefixer": "10.0.1",
