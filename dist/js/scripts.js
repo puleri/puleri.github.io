@@ -1,6 +1,6 @@
 /*!
     * Start Bootstrap - Matthew Puleri Portfolio v6.0.5 (https://puleri.github.io/)
-    * Copyright 2013-2020 Start Bootstrap
+    * Copyright 2013-2021 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/Matthew-Puleri-Portfolio/blob/master/LICENSE)
     */
     (function($) {
