@@ -10110,6 +10110,12 @@ h3 {
     font-size: 1.5em;
   }
 }
+.profile-icons {
+    padding-top: 10px;
+}
+.profile-icons-space {
+    padding-left: 10px;
+}
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
