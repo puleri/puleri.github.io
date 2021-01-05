@@ -10112,9 +10112,25 @@ h3 {
 }
 .profile-icons {
     padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 .profile-icons-space {
-    padding-left: 10px;
+    width: 6em;
+    position: relative;
+    display:inline-block;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    top: -5px;
+    text-align: center;
+}
+.icon-label {
+    position: relative;
+    display: inline-block;
+    width: 6em;
+    color: white;
+    text-align: center;
+    padding-top: 1.5em;
 }
 .masthead {
   padding-top: calc(6rem + 74px);
