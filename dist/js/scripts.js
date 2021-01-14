@@ -5,7 +5,33 @@
     */
     (function($) {
     "use strict"; // Start of use strict
-  
+    var i = 0;
+    var txt = 'Matthew Puleri';
+    // var newStr = 'Welcome';
+    var speed = 160;
+    var typedText = $('span.typed-text');
+
+    function backspace() {
+        var wordLength = txt.length;
+        var newWordLength = wordLength - 1;
+        var newWord = word.slice(0, newWordLength);
+        typedText.html(newWord);
+        if (newWordLength === 0) {
+            clearTimeout(intrvl);
+        } else {
+            newWordLength = wordLength;
+        }
+    }
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+    $(document).ready(typeWriter())
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -19,7 +45,7 @@
         }
       }
     });
-  
+
     // Scroll to top button appear
     $(document).scroll(function() {
       var scrollDistance = $(this).scrollTop();
@@ -29,18 +55,18 @@
         $('.scroll-to-top').fadeOut();
       }
     });
-  
+
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
       $('.navbar-collapse').collapse('hide');
     });
-  
+
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
       target: '#mainNav',
       offset: 80
     });
-  
+
     // Collapse Navbar
     var navbarCollapse = function() {
       if ($("#mainNav").offset().top > 100) {
@@ -53,7 +79,7 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
-  
+
     // Floating label headings for the contact form
     $(function() {
       $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -64,6 +90,7 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
+
+
+
   })(jQuery); // End of use strict
-  
