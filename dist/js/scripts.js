@@ -6,9 +6,9 @@
     (function($) {
     "use strict"; // Start of use strict
     var i = 0;
-    var txt = 'Matthew Puleri';
+    var txt = 'Hi, I\'m Matthew Puleri.';
     // var newStr = 'Welcome';
-    var speed = 160;
+    var speed = 87;
     var typedText = $('span.typed-text');
 
     function backspace() {
