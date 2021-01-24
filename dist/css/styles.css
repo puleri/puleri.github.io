@@ -10261,3 +10261,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+.h1-margin {
+    margin-top: -40px;
+}
+
+.portfolio-item {
+    box-shadow: 1px 1px 10px grey;
+}
