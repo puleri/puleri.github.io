@@ -265,6 +265,11 @@ select {
 select {
   word-wrap: normal;
 }
+.typescript-icon {
+    margin-top: 5px;
+    width: 35px;
+    filter: invert();
+}
 
 button,
 [type=button],
