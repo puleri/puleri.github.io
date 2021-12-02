@@ -11,8 +11,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+    /* updated palette */
     --black: #333333;
     --burnt-orange: #B33A0E;
+    --bright-orange: #E64C12;
+    --pale-orange: #EA7F59;
+    --brown-orange: #662108;
+    --pine-green: #4C7D53;
+
 
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10262,12 +10268,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: var(--pine-green);
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: var(--brown-orange);
 }
 
 .h1-margin {
