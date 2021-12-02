@@ -11,6 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+    --black: #333333;
+    --burnt-orange: #B33A0E;
+
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
