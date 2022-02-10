@@ -408,6 +408,14 @@ h6, .h6 {
   font-size: 1.25rem;
   font-weight: 300;
 }
+.connect-info {
+    color:#333333;
+    transition: .2s color ease;
+}
+.connect-info:hover {
+    color: #F8F9FA;
+    text-decoration: none;
+}
 
 .display-1 {
   font-size: 6rem;
