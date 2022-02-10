@@ -411,6 +411,7 @@ h6, .h6 {
 .connect-info {
     color:#333333;
     transition: .2s color ease;
+    font-weight: bold;
 }
 .connect-info:hover {
     color: #F8F9FA;
@@ -522,6 +523,38 @@ mark,
 .figure-caption {
   font-size: 90%;
   color: #6c757d;
+}
+.say-hello-link {
+    color: #fcf8e3;
+    padding-bottom: 2px;
+    border-bottom: 0 solid #49DEB2;
+    transition: .4s color ease, .4s border-bottom ease-out;
+}
+.say-hello-link:hover {
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 10px solid #49DEB2;
+}
+.hello-emoji {
+    font-size: 25px;
+}
+.hello-emoji:hover {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    font-size: 25px;
+}
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
 
 code {
@@ -10118,11 +10151,15 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #333333;
-    background: #EA7F59 ;
+    border-bottom: 10px solid #49DEB2;
+    border-radius: 0 !important;
+    padding-bottom: 0 !important;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #333333;
-    background: #EA7F59;
+    border-radius: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 10px solid #49DEB2;
   }
 
   #mainNav.navbar-shrink {
