@@ -556,6 +556,17 @@ mark,
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
+.github-link {
+    font-weight: bold;
+    color: #49DEB2;
+    border-bottom: 0 solid #49DEB2;
+    transition: .4s color ease-out, .4s border-bottom ease-out;
+}
+.github-link:hover {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 10px solid #49DEB2;
+}
 
 code {
   font-size: 87.5%;
@@ -3048,6 +3059,7 @@ input[type=button].btn-block {
   border-radius: 0.5rem;
 }
 
+
 .dropdown-menu-left {
   right: auto;
   left: 0;
@@ -4073,6 +4085,8 @@ input[type=button].btn-block {
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+  outline: 3px solid #49DEB2;
+  border-radius: 50% !important;
 }
 
 .navbar-toggler-icon {
@@ -10103,7 +10117,8 @@ h3 {
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(33, 37, 41, 0.5);
+  background-color: #49DEB2a1;
+  border-radius: 50% !important;
   line-height: 3.1rem;
 }
 
